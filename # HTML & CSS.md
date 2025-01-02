@@ -8,7 +8,7 @@ Hypertext Markup Language
 
 *in hello.html*
 
-'''
+```
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -19,7 +19,7 @@ Hypertext Markup Language
         <p>Paragraph!</p>
     </body>
 </html>
-'''
+```
 
 <html> is opening tag
 </html> is closing tag
@@ -51,7 +51,7 @@ of
 more organized:
 <img src="folder of pictures/link of picture" /> 
 
-'''
+```
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -63,7 +63,7 @@ more organized:
             <p>Paragraph!</p>
         </div>
 </html>
-'''
+```
 
 **MDN Web Docs**
 
@@ -76,17 +76,17 @@ Its the rules that tell your browser how stuff looks
 Not just structure
 
 **CSS ruleset**
-'''
+```
 div{
     color: red;
     font-family: Arial;
     font-size: 24pt;
 }
-'''
+```
 In this case, this rule would be used onto all the divs on website.
 
 
-'''
+```
 <div class="info">Info</div>
 
 .info{
@@ -94,9 +94,9 @@ In this case, this rule would be used onto all the divs on website.
     font-family: Arial;
     font-size: 24pt;
 }
-'''
+```
 
-'''
+```
 <div id="unique">Info</div>
 
 #unique{       
@@ -104,7 +104,7 @@ In this case, this rule would be used onto all the divs on website.
     font-family: Arial;
     font-size: 24pt;
 }
-'''
+```
 
 Diff of ID and Class:
 + An element can have only one ID && multiple classes
