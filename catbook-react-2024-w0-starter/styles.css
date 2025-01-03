@@ -1,0 +1,61 @@
+/* Your Code Here! */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+.u-textCenter {
+    text-align : center;
+}
+
+:root {
+    --primary: #396DFF;
+    --gray: #808080;
+    --white: #FFFFFF;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+.nav-title {
+    color: var(--white);
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.nav-container {
+    background-color: var(--primary);
+    padding: var(--s) var(--m);
+}
+
+.avatar {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.avatar-container {
+    padding: 0 35%;
+}
+
+.u-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.subContainer {
+    flex-grow: 1;
+    flex-basis: 0;
+}
