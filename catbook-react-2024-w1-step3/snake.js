@@ -10,11 +10,10 @@ const updateSnake = () => {
 
   // Add new head segment
   const newHead = { ...snakeBody[0] };
+  const snakeDirection = getInputDirection();
 
-  // TODO 2.2: Set the new head's position using the user's inputs 
-  const snackDirection = getInputDirection();
-  newHead.x += snackDirection.x;
-  newHead.y += snackDirection.y;
+  newHead.x += snakeDirection.x;
+  newHead.y += snakeDirection.y;
 
   snakeBody.unshift(newHead);
 };
